@@ -1,0 +1,58 @@
+<div class="container px-5 my-5">
+    <form id="contactForm" method="post" action="{{ action }}">
+        <div class="form-floating mb-3">
+            <input name="name"
+                   class="form-control"
+                   id="name"
+                   type="text"
+                   placeholder="name"
+                   value="{{ input.name }}"
+            />
+            <label for="name">name</label>
+
+        </div>
+
+
+        <div class="form-floating mb-3">
+            <input name="email"
+                   class="form-control"
+                   id="email"
+                   type="text"
+                   placeholder="email"
+                   value="{{ input.email }}"
+            />
+            <label for="email">email</label>
+
+        </div>
+
+
+        <div class="form-floating mb-3">
+            <input name="password"
+                   class="form-control"
+                   id="password"
+                   type="text"
+                   placeholder="password"
+                   value="{{ input.password }}"
+            />
+            <label for="password">password</label>
+
+        </div>
+
+        <div class="form-floating mb-3">
+            <input name="passwordConfirm"
+                   class="form-control"
+                   id="passwordConfirm"
+                   type="text"
+                   placeholder="passwordConfirm"
+                   value="{{ input.passwordConfirm }}"
+            />
+            <label for="passwordConfirm">passwordConfirm</label>
+
+        </div>
+
+
+        <div class="d-grid">
+            <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Register</button>
+        </div>
+    </form>
+</div>

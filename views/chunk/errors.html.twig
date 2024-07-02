@@ -1,0 +1,7 @@
+{% if hasErrors %}
+
+    {% for field, value in errors %}
+        <p class="alert alert-warning">{{ field }}: {{ value }}</p>
+    {% endfor %}
+
+{% endif %}

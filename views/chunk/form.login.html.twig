@@ -1,0 +1,35 @@
+<div class="container px-5 my-5">
+    <form id="contactForm" method="post" action="{{ action }}">
+
+
+        <div class="form-floating mb-3">
+            <input name="email"
+                   class="form-control"
+                   id="email"
+                   type="text"
+                   placeholder="email"
+                   value="{{ input.email }}"
+            />
+            <label for="email">email</label>
+
+        </div>
+
+
+        <div class="form-floating mb-3">
+            <input name="password"
+                   class="form-control"
+                   id="password"
+                   type="text"
+                   placeholder="password"
+                   value="{{ input.password }}"
+            />
+            <label for="password">password</label>
+
+        </div>
+
+
+        <div class="d-grid my-5">
+            <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Login</button>
+        </div>
+    </form>
+</div>

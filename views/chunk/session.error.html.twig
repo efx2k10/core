@@ -1,0 +1,11 @@
+{% if session().hasFlash('error') %}
+    <div class="container">
+        <div class="row">
+            <div class="alert alert-warning">
+                {% for message in  session().getFlash('error') %}
+                    <p>{{ message }}</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endif %}

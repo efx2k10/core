@@ -1,0 +1,1 @@
+cd core && vendor\bin\phpunit tests --color && cd ..

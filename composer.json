@@ -1,0 +1,20 @@
+{
+  "autoload": {
+    "psr-4": {
+      "APP\\": "app"
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "core"
+    }
+  ],
+  "require-dev": {
+    "symfony/var-dumper": "^7.1"
+  },
+  "require": {
+    "nikic/fast-route": "^1.3",
+    "efx/core": "dev-main"
+  }
+}

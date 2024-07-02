@@ -1,0 +1,5 @@
+/.env
+/.osp/
+/.idea/
+/vendor/
+/core/vendor/
